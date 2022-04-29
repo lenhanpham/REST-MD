@@ -1,0 +1,118 @@
+;MoS2 nano flake topology created by Le Nhan Pham https://lenhanpham.github.io/
+;These parameters are taken from DOI: 10.1039/d0sc01443e by Hendrik Heinz 
+
+[ bondtypes]   ; nBondTypes: 24
+;atom1   atom2    func
+  MMS4    SMS8       1      0.239      98742.4
+  MMS4    SMS4       1      0.239      98742.4
+  MMS4    SMS7       1      0.239      98742.4
+  MMS4    SMS3       1      0.239      98742.4
+  SMS8    MMS2       1      0.239      98742.4
+  SMS4    MMS2       1      0.239      98742.4
+  MMS3    SMS7       1      0.239      98742.4
+  MMS3    SMS3       1      0.239      98742.4
+  MMS3    SMS8       1      0.239      98742.4
+  MMS3    SMS4       1      0.239      98742.4
+  SMS7    MMS1       1      0.239      98742.4
+  SMS3    MMS1       1      0.239      98742.4
+  MMS2    SMS6       1      0.239      98742.4
+  MMS2    SMS2       1      0.239      98742.4
+  MMS2    SMS5       1      0.239      98742.4
+  MMS2    SMS1       1      0.239      98742.4
+  SMS6    MMS4       1      0.239      98742.4
+  SMS2    MMS4       1      0.239      98742.4
+  MMS1    SMS5       1      0.239      98742.4
+  MMS1    SMS1       1      0.239      98742.4
+  MMS1    SMS6       1      0.239      98742.4
+  MMS1    SMS2       1      0.239      98742.4
+  SMS5    MMS3       1      0.239      98742.4
+  SMS1    MMS3       1      0.239      98742.4
+
+[ angletypes ]   ; nAngleTypes: 84
+;atom1   atom2   atom3    func
+   MMS1     SMS5     MMS2       1     84.32      1715.44
+   MMS1     SMS1     MMS2       1     84.32      1715.44
+   MMS1     SMS7     MMS3       1     84.32      1715.44
+   MMS1     SMS7     MMS4       1     84.32      1715.44
+   MMS1     SMS3     MMS3       1     84.32      1715.44
+   MMS1     SMS3     MMS4       1     84.32      1715.44
+   SMS5     MMS1     SMS1       1     134.4      0
+   SMS5     MMS1     SMS7       1     84.32      1715.44
+   SMS5     MMS1     SMS3       1     134.4      30.1248
+   SMS5     MMS2     SMS1       1     78.38      0 
+   SMS5     MMS2     SMS6       1     84.32      1715.44
+   SMS5     MMS2     SMS2       1     134.4      0
+   SMS5     MMS2     SMS8       1     84.32      1715.44
+   SMS5     MMS2     SMS4       1     134.4      30.1248
+   SMS1     MMS1     SMS7       1     134.4      30.1248
+   SMS1     MMS1     SMS3       1     84.32      1715.44
+   SMS1     MMS2     SMS6       1     134.4      0
+   SMS1     MMS2     SMS2       1     84.32      1715.44
+   SMS1     MMS2     SMS8       1     134.4      30.1248
+   SMS1     MMS2     SMS4       1     84.32      1715.44
+   MMS2     SMS6     MMS1       1     84.32      1715.44
+   MMS2     SMS2     MMS1       1     84.32      1715.44
+   MMS2     SMS8     MMS4       1     84.32      1715.44
+   MMS2     SMS8     MMS3       1     84.32      1715.44
+   MMS2     SMS4     MMS4       1     84.32      1715.44
+   MMS2     SMS4     MMS3       1     84.32      1715.44
+   SMS2     MMS2     SMS8       1     134.4      30.1248
+   SMS2     MMS2     SMS4       1     84.32      1715.44
+   SMS2     MMS1     SMS5       1     134.4      0
+   SMS2     MMS1     SMS1       1     84.32      1715.44 
+   SMS2     MMS1     SMS7       1     134.4      30.1248 
+   SMS2     MMS1     SMS3       1     84.32      1715.44 
+   SMS6     MMS1     SMS2       1     78.38      0 
+   SMS6     MMS1     SMS5       1     84.32      1715.44
+   SMS6     MMS1     SMS1       1     134.4      0
+   SMS6     MMS1     SMS7       1     84.32      1715.44
+   SMS6     MMS1     SMS3       1     134.4      30.1248 
+   SMS6     MMS2     SMS2       1     78.38      0 
+   SMS6     MMS2     SMS8       1     84.32      1715.44
+   SMS6     MMS2     SMS4       1     134.4      30.1248
+   SMS6     MMS4     SMS2       1     78.38      30.1248    
+   MMS3     SMS7     MMS4       1     84.32      1715.44
+   MMS3     SMS3     MMS4       1     84.32      1715.44
+   MMS3     SMS5     MMS2       1     84.32      1715.44
+   MMS3     SMS1     MMS2       1     84.32      1715.44
+   MMS3     SMS5     MMS1       1     84.32      1715.44
+   MMS3     SMS1     MMS1       1     84.32      1715.44
+   SMS7     MMS1     SMS3       1     78.38      30.1248 
+   SMS7     MMS3     SMS3       1     78.38      0  
+   SMS7     MMS3     SMS5       1     84.32      1715.44
+   SMS7     MMS3     SMS1       1     134.4      30.1248    
+   SMS7     MMS4     SMS3       1     78.38      0 
+   SMS7     MMS4     SMS8       1     84.32      1715.44
+   SMS7     MMS4     SMS4       1     134.4      0
+   SMS7     MMS4     SMS6       1     84.32      1715.44
+   SMS7     MMS4     SMS2       1     134.4      30.1248 
+   SMS3     MMS3     SMS5       1     134.4      30.1248
+   SMS3     MMS3     SMS1       1     84.32      1715.44
+   SMS3     MMS4     SMS8       1     134.4      0 
+   SMS3     MMS4     SMS4       1     84.32      1715.44 
+   SMS3     MMS4     SMS6       1     134.4      30.1248
+   SMS3     MMS4     SMS2       1     84.32      1715.44
+   MMS4     SMS8     MMS3       1     84.32      1715.44
+   MMS4     SMS4     MMS3       1     84.32      1715.44
+   MMS4     SMS6     MMS2       1     84.32      1715.44
+   MMS4     SMS6     MMS1       1     84.32      1715.44
+   MMS4     SMS2     MMS2       1     84.32      1715.44
+   MMS4     SMS2     MMS1       1     84.32      1715.44
+   SMS8     MMS2     SMS4       1     78.38      30.1248 
+   SMS8     MMS4     SMS4       1     78.38      0 
+   SMS8     MMS4     SMS6       1     84.32      1715.44
+   SMS8     MMS4     SMS2       1     134.4      30.1248
+   SMS8     MMS3     SMS4       1     78.38      0 
+   SMS8     MMS3     SMS7       1     84.32      1715.44
+   SMS8     MMS3     SMS3       1     134.4      0
+   SMS8     MMS3     SMS5       1     84.32      1715.44
+   SMS8     MMS3     SMS1       1     134.4      30.1248
+   SMS4     MMS4     SMS6       1     134.4      30.1248
+   SMS4     MMS4     SMS2       1     84.32      1715.44
+   SMS4     MMS3     SMS7       1     134.4      0
+   SMS4     MMS3     SMS3       1     84.32      1715.44
+   SMS4     MMS3     SMS5       1     134.4      30.1248
+   SMS4     MMS3     SMS1       1     84.32      1715.44
+   SMS5     MMS3     SMS1       1     78.38      30.1248 
+
+[ dihedraltypes ]
