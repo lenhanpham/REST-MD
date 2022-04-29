@@ -1,0 +1,27 @@
+; A topology file created manually 
+; Nhan 
+
+; Include forcefield parameters
+#include "../charmm22-star-MoS2-REST-MD.ff/forcefield.itp"
+#include "../charmm22-star-MoS2-REST-MD.ff/tips3p.itp" 
+#include "../MoS2-P28-restmd.itp" 
+#include "../ms.itp" 
+
+[ system ]
+; Name
+MS MoS2-P15 SOL   
+
+[ molecules ]
+; Compound        #mols
+MS 					1 
+Protein 			1     
+SOL         		9335      
+
+
+
+
+
+       
+
+       
+       

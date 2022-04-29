@@ -1,0 +1,14 @@
+module load gromacs/2021.4 
+
+
+currdir=$(pwd)
+
+for i in {2..15}; do
+cd $currdir/replica_${i}   
+gmx grompp -f mdp/ions.mdp -c replica_${i}.gro -p replica_${i}.top -o replica_${i}-ion.tpr
+echo "15" | gmx genion -s replica_${i}-ion.tpr -o replica_${i}.gro -p replica_${i}.top -pname NA -nname CLP -neutral
+rm \#*.*#
+done
+
+ 
+

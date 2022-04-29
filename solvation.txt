@@ -1,0 +1,1298 @@
+
+[np9048@gadi-login-04 MoS2-P28]$ bash prepare-dir-replica.sh
+mkdir: cannot create directory 'replica_0': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_0.pdb -cs spc216.gro -o replica_0.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3699 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9328 residues
+Generated solvent containing 27984 atoms in 9328 residues
+Writing generated configuration to replica_0.gro
+
+Output configuration contains 29932 atoms in 9344 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.71 (g/l)
+Number of solvent molecules:   9328
+
+
+GROMACS reminds you: "Making merry out of nothing, like in refugee camp" (Gogol Bordello)
+
+mkdir: cannot create directory 'replica_1': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_1.pdb -cs spc216.gro -o replica_1.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3714 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9323 residues
+Generated solvent containing 27969 atoms in 9323 residues
+Writing generated configuration to replica_1.gro
+
+Output configuration contains 29917 atoms in 9339 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.24 (g/l)
+Number of solvent molecules:   9323
+
+
+GROMACS reminds you: "Making merry out of nothing, like in refugee camp" (Gogol Bordello)
+
+mkdir: cannot create directory 'replica_2': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_2.pdb -cs spc216.gro -o replica_2.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3720 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9321 residues
+Generated solvent containing 27963 atoms in 9321 residues
+Writing generated configuration to replica_2.gro
+
+Output configuration contains 29911 atoms in 9337 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.05 (g/l)
+Number of solvent molecules:   9321
+
+
+GROMACS reminds you: "The Wheels On the Bus Go Round and Round" (J. Richman)
+
+mkdir: cannot create directory 'replica_3': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_3.pdb -cs spc216.gro -o replica_3.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3735 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9316 residues
+Generated solvent containing 27948 atoms in 9316 residues
+Writing generated configuration to replica_3.gro
+
+Output configuration contains 29896 atoms in 9332 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1101.59 (g/l)
+Number of solvent molecules:   9316
+
+
+GROMACS reminds you: "The Wheels On the Bus Go Round and Round" (J. Richman)
+
+mkdir: cannot create directory 'replica_4': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_4.pdb -cs spc216.gro -o replica_4.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3678 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9335 residues
+Generated solvent containing 28005 atoms in 9335 residues
+Writing generated configuration to replica_4.gro
+
+Output configuration contains 29953 atoms in 9351 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1103.36 (g/l)
+Number of solvent molecules:   9335
+
+
+GROMACS reminds you: "We must be clear that when it comes to atoms, language can be used only as in poetry. " (Niels Bohr)
+
+mkdir: cannot create directory 'replica_5': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_5.pdb -cs spc216.gro -o replica_5.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3696 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9329 residues
+Generated solvent containing 27987 atoms in 9329 residues
+Writing generated configuration to replica_5.gro
+
+Output configuration contains 29935 atoms in 9345 residues
+Volume                 :     321.671 (nm^3)
+Density                :      1102.8 (g/l)
+Number of solvent molecules:   9329
+
+
+GROMACS reminds you: "We must be clear that when it comes to atoms, language can be used only as in poetry. " (Niels Bohr)
+
+mkdir: cannot create directory 'replica_6': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_6.pdb -cs spc216.gro -o replica_6.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3708 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9325 residues
+Generated solvent containing 27975 atoms in 9325 residues
+Writing generated configuration to replica_6.gro
+
+Output configuration contains 29923 atoms in 9341 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.43 (g/l)
+Number of solvent molecules:   9325
+
+
+GROMACS reminds you: "We must be clear that when it comes to atoms, language can be used only as in poetry. " (Niels Bohr)
+
+mkdir: cannot create directory 'replica_7': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_7.pdb -cs spc216.gro -o replica_7.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3729 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9318 residues
+Generated solvent containing 27954 atoms in 9318 residues
+Writing generated configuration to replica_7.gro
+
+Output configuration contains 29902 atoms in 9334 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1101.78 (g/l)
+Number of solvent molecules:   9318
+
+
+GROMACS reminds you: "You're About to Hurt Somebody" (Jazzy Jeff)
+
+mkdir: cannot create directory 'replica_8': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_8.pdb -cs spc216.gro -o replica_8.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3690 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9331 residues
+Generated solvent containing 27993 atoms in 9331 residues
+Writing generated configuration to replica_8.gro
+
+Output configuration contains 29941 atoms in 9347 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.98 (g/l)
+Number of solvent molecules:   9331
+
+
+GROMACS reminds you: "You're About to Hurt Somebody" (Jazzy Jeff)
+
+mkdir: cannot create directory 'replica_9': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_9.pdb -cs spc216.gro -o replica_9.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3717 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9322 residues
+Generated solvent containing 27966 atoms in 9322 residues
+Writing generated configuration to replica_9.gro
+
+Output configuration contains 29914 atoms in 9338 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.15 (g/l)
+Number of solvent molecules:   9322
+
+
+GROMACS reminds you: "Mathematics is like love; a simple idea, but it can get complicated." (Anonymous)
+
+mkdir: cannot create directory 'replica_10': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_10.pdb -cs spc216.gro -o replica_10.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3711 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9324 residues
+Generated solvent containing 27972 atoms in 9324 residues
+Writing generated configuration to replica_10.gro
+
+Output configuration contains 29920 atoms in 9340 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.33 (g/l)
+Number of solvent molecules:   9324
+
+
+GROMACS reminds you: "Mathematics is like love; a simple idea, but it can get complicated." (Anonymous)
+
+mkdir: cannot create directory 'replica_11': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_11.pdb -cs spc216.gro -o replica_11.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3690 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9331 residues
+Generated solvent containing 27993 atoms in 9331 residues
+Writing generated configuration to replica_11.gro
+
+Output configuration contains 29941 atoms in 9347 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.98 (g/l)
+Number of solvent molecules:   9331
+
+
+GROMACS reminds you: "C is not a high-level language." (Brian Kernighan, C author)
+
+mkdir: cannot create directory 'replica_12': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_12.pdb -cs spc216.gro -o replica_12.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3702 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9327 residues
+Generated solvent containing 27981 atoms in 9327 residues
+Writing generated configuration to replica_12.gro
+
+Output configuration contains 29929 atoms in 9343 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.61 (g/l)
+Number of solvent molecules:   9327
+
+
+GROMACS reminds you: "C is not a high-level language." (Brian Kernighan, C author)
+
+mkdir: cannot create directory 'replica_13': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_13.pdb -cs spc216.gro -o replica_13.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3720 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9321 residues
+Generated solvent containing 27963 atoms in 9321 residues
+Writing generated configuration to replica_13.gro
+
+Output configuration contains 29911 atoms in 9337 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.05 (g/l)
+Number of solvent molecules:   9321
+
+
+GROMACS reminds you: "The three principal virtues of a programmer are Laziness, Impatience, and Hubris" (Larry Wall)
+
+mkdir: cannot create directory 'replica_14': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_14.pdb -cs spc216.gro -o replica_14.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3723 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9320 residues
+Generated solvent containing 27960 atoms in 9320 residues
+Writing generated configuration to replica_14.gro
+
+Output configuration contains 29908 atoms in 9336 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1101.96 (g/l)
+Number of solvent molecules:   9320
+
+
+GROMACS reminds you: "The three principal virtues of a programmer are Laziness, Impatience, and Hubris" (Larry Wall)
+
+mkdir: cannot create directory 'replica_15': File exists
+                     :-) GROMACS - gmx solvate, 2021.4 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola
+        Szilard Pall               Sander Pronk              Roland Schulz
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers
+       Peter Tieleman              Jon Vincent              Teemu Virolainen
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.4
+Executable:   /apps/gromacs/2021.4/bin/gmx
+Data prefix:  /apps/gromacs/2021.4
+Working dir:  /scratch/dv1/np9048/MoS2/REST-MD/REST-MD/MoS2-P28
+Command line:
+  gmx solvate -cp replica_15.pdb -cs spc216.gro -o replica_15.gro
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x5x4 boxes
+Solvent box contains 36726 atoms in 12242 residues
+Removed 5043 solvent atoms due to solvent-solvent overlap
+Removed 3693 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  9330 residues
+Generated solvent containing 27990 atoms in 9330 residues
+Writing generated configuration to replica_15.gro
+
+Output configuration contains 29938 atoms in 9346 residues
+Volume                 :     321.671 (nm^3)
+Density                :     1102.89 (g/l)
+Number of solvent molecules:   9330
+
+
+GROMACS reminds you: "Either you will be dashed to atoms on crag points, or lifted up and borne by some master-wave into a calmer current" (Charlotte Bronte)
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+

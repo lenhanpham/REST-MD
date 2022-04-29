@@ -1,0 +1,5 @@
+currdir=$(pwd)
+
+for i in {0..15}; do
+    cp $currdir/replica_x.top replica_${i}/replica_${i}.top 
+done 

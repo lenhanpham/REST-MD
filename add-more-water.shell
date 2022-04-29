@@ -1,0 +1,19 @@
+module load gromacs/2021.4   
+
+###Total water molecules: 9341    
+
+currdir=$(pwd)
+
+declare -a nwaters
+nwaters=( 7	12	14	19	0	6	10	17	4	13	11	4	8	14	15	5 ) 
+
+for i in {0..15}; do
+	#cp $currdir/1spc216.gro $currdir/replica_${i} 
+    cd $currdir/replica_${i} 
+	
+	if [ ${nwaters[${i}]} -ne 0 ]; then 
+      gmx insert-molecules -f replica_${i}.gro -ci ../1spc.gro -nmol ${nwaters[${i}]} -rot xyz -try 100 -scale 0.56 -o replica_${i}.gro  
+	  rm \#*.gro.*\#  
+    fi       
+done 
+
