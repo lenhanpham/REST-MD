@@ -1,4 +1,4 @@
-; This code was written by Le Nhan Pham (March 2022), postdoctoral research fellow at IFM Deakin University https://lenhanpham.github.io/
+# This code was written by Le Nhan Pham (March 2022), postdoctoral research fellow at IFM Deakin University https://lenhanpham.github.io/
 import math
 from datetime import datetime
 
