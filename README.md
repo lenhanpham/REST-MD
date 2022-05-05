@@ -11,7 +11,7 @@
 10. Check if the surface itp exists in the running dir, and then check the forcefield.itp to comment out the ffbonded.itp for safe running (ensure that rest md will use parameters in the peptide-restmd.itp only)
 11. Run md 
 
-# Prepare the restmd.itp file of peptides
+# Prepare the restmd.itp file of peptides: use python code to automatically genereate the restmd.itp file. All steps in the python code are described below
 **REST: FILE PREPARATION & HOW-TO for CHARMM variants in GMX**
 
 **Tiff Walsh, Sept 2012, Updated 2013, 2014, 2015….2022**
