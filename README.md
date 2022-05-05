@@ -8,7 +8,7 @@
 7. Update the top files by using update-top-file.shell 
 8. If ions are needed, add ion to the replica by using add-ion.shell
 9. Rescale charge of ion state B to have neutral system for stateB: sum all charge of stateB of peptide and then add this charge to stateB of the ion (CLAb for example) in the ions.itp 
-10. Check if the surface itp exists in the running dir, and then check the forcefield.itp to comment out the forcefield.itp for safe running (ensure that rest md will use parameters in the peptide-restmd.itp only)
+10. Check if the surface itp exists in the running dir, and then check the forcefield.itp to comment out the ffbonded.itp for safe running (ensure that rest md will use parameters in the peptide-restmd.itp only)
 11. Run md 
 
 # Prepare the restmd.itp file of peptides
