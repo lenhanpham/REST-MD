@@ -7,7 +7,7 @@
 #SBATCH --gres=gpu:2    
 #SBATCH --mem=80gb 
 #SBATCH --time=24:00:00
-#SBATCH --account=director2178   
+#SBATCH --account=xxxx   
 #SBATCH --export=NONE
 
 module load gromacs-gpu/2021.2 
