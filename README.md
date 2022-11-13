@@ -1,4 +1,5 @@
-# Step to prepare all files for REST MD
+# Python script to prepare inputs for replica exchange with solute tempering (REST) simulations using Gromacs
+## Step to prepare all files for REST MD
 1. Prepare replica_x.pdp files by using pymol (add peptide to the surface and export structures to pdb)
 2. Use prepare-dir-replica.sh to prepare all replica_x dirs
 3. Copy output of solvation process to a txt file (solvent.txt)
